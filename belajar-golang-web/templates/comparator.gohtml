@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<body>
+    {{ if ge .FinalValue 80 }}
+    <h1>Good Job</h1>
+    {{ else if ge .FinalValue 60}}
+    <h1>Nice Try</h1>
+    {{ else }}
+    <h1>Try Again</h1>
+    {{ end }}
+</body>
+</html>
